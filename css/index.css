@@ -1,0 +1,23 @@
+.Nav-bar {
+  padding: 20px;
+  background: linear-gradient(45deg, #7df0ef, #a0eba2, #7df0ef);
+  box-shadow: 0 14px 28px 0 rgba(70, 70, 70, 0.6);
+}
+
+.Nav-bar .Menu a {
+  margin: 20px;
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+  justify-content: center;
+  transition: 1s;
+}
+
+.Nav-bar .Menu a:hover {
+  background-color: black;
+  color: white;
+  transition: 1s;
+}
+
+/*# sourceMappingURL=index.css.map */
