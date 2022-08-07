@@ -9,10 +9,13 @@
 
 body {
   background-image: url(images/image.jpg);
+  background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
   background-size: cover;
   background-position: center;
+  overflow-x: hidden;
+
 }
 
 nav {
@@ -151,4 +154,38 @@ nav .menu-btn i {
 #home a.resume {
   background-image: url(images/resume.png);
 
+}
+
+.feedback {
+  position: relative;
+  margin-top: 2em;
+}
+
+.feedback .heading {
+  margin-top: 1em;
+  font-size: 4em;
+  font-family: monospace;
+  font-weight: 600;
+  text-align: center;
+}
+
+.feedback .heading .subHeading {
+  color: rgb(241, 100, 241);
+}
+
+.feedback .content {
+  width: 100vw;
+}
+
+.gridBox {
+  position: relative;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  margin: 0 auto;
+}
+
+.gridBox .box {
+  border: 1px solid black;
 }
