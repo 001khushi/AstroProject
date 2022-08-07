@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 * {
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
@@ -175,6 +174,7 @@ nav .menu-btn i {
 
 .feedback .content {
   width: 100vw;
+  padding: 4em;
 }
 
 .gridBox {
@@ -187,5 +187,32 @@ nav .menu-btn i {
 }
 
 .gridBox .box {
-  border: 1px solid black;
+  padding: 10px;
+  background: transparent;
+  text-align: justify;
+  border-radius: 10px;
+  box-shadow: -3px -3px 12px rgba(255, 255, 255, 0.9), -2px -2px 12px rgba(255, 255, 255, 0.9), inset 2px 2px 8px rgba(255, 255, 255, 0.3), 2px 2px 12px black;
+}
+
+.gridBox .box:hover {
+  box-shadow: inset -3px -3px 8px rgba(255, 255, 255, 0.5), -2px -2px 12px rgba(255, 255, 255, 0.5), 2px 2px 8px rgba(255, 255, 255, 0.1), 2px 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.buttonJoinUs {
+  position: relative;
+  top: 25px;
+  left: 43vw;
+  transition: 1s;
+  margin-bottom: 20px;
+  background: rgb(46, 139, 87);
+  text-decoration: none;
+  color: white;
+  padding: 5px 30px;
+  border-radius: 10px;
+}
+
+.buttonJoinUs:hover {
+  padding: 7px 33px;
+  transition: 1s;
+  color: black;
 }
